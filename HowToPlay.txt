@@ -1,0 +1,51 @@
+Senet is a two player game. In order to win, you must move all of your pieces (7) off the board. 
+
+The senet board consists of 30 spaces, arrange in 3 rows, 10 columns each. The spaces are numbered 0 - 29, and the path the pieces take around
+the board is a reverse 's' shape. The first 14 spaces are filled with alternating black and white pieces.
+
+White goes first.
+
+On your turn, you will toss sticks to determine the number of places you can move a pawn, and then choose which pawn you want to move.
+
+Tangent: "Tossing sticks" is akin to rolling dice. There are 4 sticks, each with a black side and a white side. The number of sticks that have the 
+white side facing upward after a toss determines how many places you get to move your pawn. 1 white side up is 1; 2 up is 2; 3 up is 3;
+4 up is 4; and 0 up (all black sides up) is 5. The program will show the stick colors after every roll as well as the corresponding number of
+spaces you can move.
+
+Players can't split up their roll between different pawns.
+
+Only one pawn is allowed per space. You can't move a pawn to a space that already has one of your pawns on it. You can land on spaces that have
+enemy pawns on them, in which case those pawns will swap places.
+
+Pawns are moved off the board by rolling so that they go past space 29, or by using one of the houses (see below.)
+
+You have some tricks at your disposal to prevent your opponent from winning. Having 2 or more of your pawns in adjacent spaces will defend them
+from being swapped by enemy pawns. Having 3 or more of your pawns in adjacent spaces will not only defend them, but also create a blockade that
+enemy pawns won't be able to move through. Defenses can wrap around corners/the ends of the board, but blockades can't.
+
+If for some reason there are no possible moves for what you rolled, you must pick a pawn to move backwards to the nearest empty space.
+
+There are 7 special spaces, called "houses" on the board. 
+Space 14 is "The House of Rebirth." Pawns on this space are automatically protected from enemy pawn-swapping.
+Space 25 is "The House of Happiness." Your pawns must land on this space exactly before they can continue any further on the board.
+Space 26 is "The House of Water." Landing here will send your pawn back to The House of Rebirth (space 14) or to the closest empty space behind it
+if The House of Rebirth is already occupied.
+Space 27 is "The House of Three Truths." Pawns on this space can only exit with a roll of 3, upon which the pawn is moved off the board.
+Space 28 is "The House of Re-Atoum." Pawns move off of this space based on a probability associated with their roll. A roll of 1 gives a 10% chance;
+2, 20%; 3, 30%; 4, 40% and 5, 50%. Pawns move off the board once they exit this space.
+
+Key: 
+     ▮ ▮          ▯ ▯          ☥☥☥☥              𓄿𓄿𓄿
+     ▮ ▮          ▯ ▯          ☥☥☥☥              𓄿𓄿𓄿
+  white pawn   black pawn   house of life   house of happiness
+                            (space 14)        (space 25)
+
+     𓈗𓈗𓈗               𓃋𓃋𓃋𓃋𓃋                  𓂀𓂀𓂀 
+     𓈗𓈗𓈗               𓃋𓃋𓃋𓃋𓃋                  𓂀𓂀𓂀 
+ house of water  house of three truths   house of re-atoum
+  (space 26)         (space 27)             (space 28)
+
+    ☥▯ ☥                    𓂀▮ 𓂀
+    ☥▯ ☥                    𓂀▮ 𓂀
+black pawn on house   white pawn on house
+

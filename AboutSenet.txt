@@ -1,0 +1,15 @@
+Senet is a board game from Ancient Egypt, with its earliest form having existed around 2600 B.C. 
+
+The game of Senet is found within the Book of the Dead, which was used to help guide the soul to the afterlife after someone died.
+Senet is believed to be a representation of the soul as it journeys throught the underworld to the afterlife.
+
+The rules of Senet have been lost to time. Reconstructing the rules has been difficult as it is believed the game changed and evolved over the
+course of Egyptian civilization (which was around for quite a long time.) However, historians have reconstructed different rulesets of the game 
+based on their own findings. The core concept of the game, moving pieces off of the board in order to win, is found in all rulesets. 
+Differences between rulesets include the number of pieces used, the manner that pieces can be moved off the board, and the inclusion/exclusion 
+of special spaces on the board.
+
+The rules used in this Senet program are based on the rules made by archaelogist and Egyptologist Gustave Jéquier, with some modifications made
+in order to meet the requirements of this project.
+
+You can find the rules for this version in the "How to play" section of the main menu.
