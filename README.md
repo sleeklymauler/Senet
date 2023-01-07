@@ -1,6 +1,6 @@
 # Senet
 
-A recreation of the ancient Egyptian board game [Senet](https://en.wikipedia.org/wiki/Senet) that runs in terminal. Final project for _CSCI 1300: Programming_ at CU Boulder.
+A recreation of the ancient Egyptian board game [Senet](https://en.wikipedia.org/wiki/Senet) that runs in terminal. Final project for _CSCI 1300: Programming_ (Fall 2021) at CU Boulder.
 
 ## About
 
