@@ -2,6 +2,8 @@
 
 A recreation of the ancient Egyptian board game [Senet](https://en.wikipedia.org/wiki/Senet) that runs in terminal. Final project for _CSCI 1300: Programming_ (Fall 2021) at CU Boulder.
 
+![Example gif](/Examples/example.gif)
+
 ## About
 
 See _AboutSenet.txt_ for more background on the game and _HowtoPlay.txt_ for game rules.
